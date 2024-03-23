@@ -129,7 +129,7 @@ img {
  ************************************************/
 .row {
     flex-wrap: wrap;
-}
+ }
 
 @media screen and (max-width: 768px) {
     .container {
@@ -138,25 +138,20 @@ img {
  }
 
  @media screen and (max-width: 480px) {
-    .container {
-        width: 100%;
-
-    }
-
-    img {
-        display: block;
-    }
+    
 
     .row {
         display: inline-block;
     }
 
-    .container .card img{
-        width: 100vw;
+    .lessons .col  {
+        width: 100%;
     }
 
-
-    .why-us {
+   .steps .col {
+        width: 100%;
+    }
+    .why-us .container {
         background-color: #222222;
     }
  } 
